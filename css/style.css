@@ -1,0 +1,80 @@
+.html, body {
+margin: 0;
+padding: 0;
+    
+}
+        
+.intro{
+width: 100%;
+height: 870px;
+background:
+url("../img/fon_kino1.jpg") center no-repeat;
+-webkit-background-size:cover ;
+background-size:cover;
+display: flex;
+}
+
+
+.start{
+display: flex;
+width: 100%;
+background: rgb(14, 14, 40);    
+align-items: center;
+
+}
+
+.start_img{
+width: 45%;
+}
+
+.imag{
+width:100%
+}
+
+.text{
+display:flex;
+flex-direction: column;
+align-items: center;
+width: 50%;
+}
+
+.title{
+text-align: center;
+font-size: 60px;
+font-family: 'Balsamiq Sans', cursive;
+color: blanchedalmond;
+
+}
+
+.main_text{
+text-align: center;
+margin-top: 5%;
+font-size: 30px;
+font-family: 'Balsamiq Sans', cursive;
+color: blanchedalmond;
+margin-left: 5%;
+
+}
+
+.popcorn{
+text-decoration: underline;
+}
+
+.footer{
+    background-color: rgba(12, 0, 245, 0.727);
+    
+    }
+                    
+    .footer__row{
+    display: flex;
+    height:50px;
+    justify-content: center;
+    align-items: center;
+    }
+                    
+    .footer__text{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    letter-spacing: 0.3px;
+    font-family: 'Balsamiq Sans', cursive;
+    }
